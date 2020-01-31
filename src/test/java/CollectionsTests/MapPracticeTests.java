@@ -66,6 +66,18 @@ public class MapPracticeTests {
     }
 
     @Test
+    public void findValueOfTest4(){
+        // Given
+        // When
+        String expected = null;
+        String actual = (String) mapPractice.findValueOf(map1, null);
+        // Then
+        Assert.assertNull(actual);
+    }
+
+
+
+    @Test
     public void findKeysOfTest1(){
         // Given
         String value = "Donkey Kong";
@@ -97,6 +109,17 @@ public class MapPracticeTests {
         // Then
         Assert.assertArrayEquals(expected, actual);
     }
+
+    @Test
+    public void findKeysOfTest4(){
+        // Given
+        // When
+        Object[] expected = {};
+        Object[] actual = mapPractice.findKeysOf(map1, null);
+        // Then
+        Assert.assertArrayEquals(expected, actual);
+    }
+
 
     @Test
     public void fibonacciTreeTest1(){
@@ -164,6 +187,17 @@ public class MapPracticeTests {
     public void fibonacciTreeTest5(){
         // Given
         Integer upTo = 0;
+        // When
+        Map<Integer, Integer> expected = new TreeMap<Integer, Integer>();
+        Map<Integer, Integer> actual = mapPractice.fibonacciTree(upTo);
+        // Then
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void fibonacciTreeTest6(){
+        // Given
+        Integer upTo = -100;
         // When
         Map<Integer, Integer> expected = new TreeMap<Integer, Integer>();
         Map<Integer, Integer> actual = mapPractice.fibonacciTree(upTo);
@@ -267,6 +301,44 @@ public class MapPracticeTests {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void crazySpiralTest6(){
+        // Given
+        Integer upTo = -123;
+        Integer first = 334124535;
+        Integer second = -413141793;
+        // When
+        Map<Integer, Integer> expected = new TreeMap<Integer, Integer>();
+        Map<Integer, Integer> actual = mapPractice.crazySpiral(first, second, upTo);
+        // Then
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void crazySpiralTest7(){
+        // Given
+        Integer upTo = 10;
+        Integer first = null;
+        Integer second = 123;
+        // When
+        Map<Integer, Integer> expected = new TreeMap<Integer, Integer>();
+        Map<Integer, Integer> actual = mapPractice.crazySpiral(first, second, upTo);
+        // Then
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void crazySpiralTest8(){
+        // Given
+        Integer upTo = 10;
+        Integer first = 123;
+        Integer second = null;
+        // When
+        Map<Integer, Integer> expected = new TreeMap<Integer, Integer>();
+        Map<Integer, Integer> actual = mapPractice.crazySpiral(first, second, upTo);
+        // Then
+        Assert.assertEquals(expected, actual);
+    }
 
 
 }

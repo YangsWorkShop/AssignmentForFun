@@ -7,7 +7,7 @@ import java.util.Map;
 public class MapPractice {
 
     public Object findValueOf(Map map, Object key) {
-        return map.get(key);
+        return key != null ? map.get(key) : null;
     }
 
     public Object[] findKeysOf(Map map, Object value) {
@@ -38,7 +38,7 @@ public class MapPractice {
 
     public Map<Integer, Integer> crazySpiral(Integer first, Integer second, Integer size) {
         Map<Integer, Integer> spiralMap = new HashMap<Integer, Integer>();
-        if (size <= 0) return spiralMap;
+        if (first == null || second == null || size == null || size <= 0) return spiralMap;
 
         spiralMap.put(1, first);
         if (size == 1) return spiralMap;

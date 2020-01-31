@@ -6,6 +6,7 @@ import java.util.Set;
 public class DansDilemma {
 
     private void calculateUniqueResult(Set<Double> set, Double input1, Double input2) {
+        if (input1 == null || input2 == null) return;
         set.add(input1 + input2);
         set.add(input1 * input2);
 
