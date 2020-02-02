@@ -6,7 +6,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-// Please rewrite the test part as the format I gave here.
 public class DansDilemmaTests {
 
     private DansDilemma dansDilemma;
@@ -19,8 +18,9 @@ public class DansDilemmaTests {
     @Test
     public void dilemmaOfTwoDoubleTest1(){
         // Given
-        Double input1 = 4d;
-        Double input2 = 5d;
+        // Suffix d after number denotes double, suffix f denotes float.
+        Double input1 = 7d;
+        Double input2 = 8d;
         // When
         Integer actual = dansDilemma.dilemmaOfTwo(input1, input2);
         // Then
@@ -32,20 +32,20 @@ public class DansDilemmaTests {
     @Test
     public void dilemmaOfTwoDoubleTest2(){
         // Given
-        Double input1 = 5d;
+        Double input1 = 0d;
         Double input2 = 5d;
         // When
         Integer actual = dansDilemma.dilemmaOfTwo(input1, input2);
         // Then
-        Integer expected = 4;
+        Integer expected = 3;
         Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void dilemmaOfTwoDoubleTest3(){
         // Given
-        Double input1 = 43141351915321531d;
-        Double input2 = 143115.3914319413;
+        Double input1 = 834397929d;
+        Double input2 = 213.45;
         // When
         Integer actual = dansDilemma.dilemmaOfTwo(input1, input2);
         // Then
@@ -81,21 +81,21 @@ public class DansDilemmaTests {
     @Test
     public void dilemmaOfThreeDoubleTest2(){
         // Given
-        Double input1 = 3d;
-        Double input2 = 2d;
-        Double input3 = 3d;
+        Double input1 = 0d;
+        Double input2 = 42d;
+        Double input3 = 57d;
         // When
         Integer actual = dansDilemma.dilemmaOfThree(input1, input2, input3);
         // Then
-        Integer expected = 8;
+        Integer expected = 11;
         Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void dilemmaOfThreeDoubleTest3(){
         // Given
-        Double input1 = 4.5;
-        Double input2 = 90d;
+        Double input1 = -1d;
+        Double input2 = 0.5;
         Double input3 = 3d;
         // When
         Integer actual = dansDilemma.dilemmaOfThree(input1, input2, input3);
@@ -120,18 +120,18 @@ public class DansDilemmaTests {
     @Test
     public void dilemmaOfNTest1(){
         // Given
-        Double[] inputs = {4d, 6d, 8d, 12d};
+        Double[] inputs = {0d, -2d, 8d, 4d};
         // When
         Integer actual = dansDilemma.dilemmaOfN(inputs);
         // Then
-        Integer expected = 26;
+        Integer expected = 20;
         Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void dilemmaOfNTest2(){
         // Given
-        Double[] inputs = {4d, 64d};
+        Double[] inputs = {4d, 10d};
         // When
         Integer actual = dansDilemma.dilemmaOfN(inputs);
         // Then
@@ -142,7 +142,7 @@ public class DansDilemmaTests {
     @Test
     public void dilemmaOfNTest3(){
         // Given
-        Double[] inputs = {1d, 2d, 4d, 8d, 16d, 32d, 64d};
+        Double[] inputs = {3d, 2d, 1d, 8d, 7d, 6d, 5d, 4d};
         // When
         Integer actual = dansDilemma.dilemmaOfN(inputs);
         // Then
@@ -153,28 +153,28 @@ public class DansDilemmaTests {
     @Test
     public void dilemmaOfNTest4(){
         // Given
-        Double[] inputs = new Double[100];
+        Double[] inputs = new Double[85];
         for (int i = 0; i < inputs.length; i++) {
             inputs[i] = (double) i;
         }
         // When
         Integer actual = dansDilemma.dilemmaOfN(inputs);
         // Then
-        Integer expected = 8843;
+        Integer expected = 6434;
         Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void dilemmaOfNTest5(){
         // Given
-        Double[] inputs = new Double[4314];
+        Double[] inputs = new Double[2500];
         for (int i = 0; i < inputs.length; i++) {
             inputs[i] = (double) i;
         }
         // When
         Integer actual = dansDilemma.dilemmaOfN(inputs);
         // Then
-        Integer expected = 15632976;
+        Integer expected = 5280065;
         Assert.assertEquals(expected, actual);
     }
 
