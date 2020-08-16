@@ -1,11 +1,12 @@
 package CollectionsTests;
 
-import Collections.ArrayLists;
+import java.util.ArrayList;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
+import Collections.ArrayLists;
 
 // Please rewrite the test part as the format I gave here.
 

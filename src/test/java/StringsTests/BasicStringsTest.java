@@ -1,9 +1,10 @@
 package StringsTests;
 
-import Strings.BasicStrings;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import Strings.BasicStrings;
 
 // Please rewrite the test part as the format I gave here.
 
@@ -191,7 +192,7 @@ public class BasicStringsTest {
         // Given
         String string1 = "Chr 9.0";
         String string2 = "oot";
-        String expected = "Chararar 7.0";
+        String expected = "Cohort 9.0";
         // When
         String actual = basicStrings.oneAtATime(string1, string2);
         // Then

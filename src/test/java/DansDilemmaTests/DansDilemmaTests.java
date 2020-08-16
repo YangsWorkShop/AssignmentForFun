@@ -1,10 +1,10 @@
 package DansDilemmaTests;
 
-import DansDilemma.DansDilemma;
-import Strings.BasicStrings;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import DansDilemma.DansDilemma;
 
 // Please rewrite the test part as the format I gave here.
 public class DansDilemmaTests {
