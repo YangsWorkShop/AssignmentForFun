@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ArrayLists
+comment1.params=list1\ list2
+comment1.target=java.util.ArrayList\ addShit(java.util.ArrayList,\ java.util.ArrayList)
+comment2.params=list1\ list2
+comment2.target=java.lang.Integer\ addShitTogether(java.util.ArrayList,\ java.util.ArrayList)
+comment3.params=original\ toRemove
+comment3.target=java.util.ArrayList\ removeAll(java.util.ArrayList,\ java.lang.Integer)
+comment4.params=original
+comment4.target=boolean\ happyList(java.util.ArrayList)
+numComments=5
