@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=BasicStrings
+comment1.params=string1\ string2
+comment1.target=java.lang.String\ flipConcat(java.lang.String,\ java.lang.String)
+comment2.params=string\ index
+comment2.target=char\ getChar(java.lang.String,\ int)
+comment3.params=string
+comment3.target=java.lang.String\ iCantSee(java.lang.String)
+comment4.params=string
+comment4.target=java.lang.String\ loudAndClear(java.lang.String)
+comment5.params=string
+comment5.target=java.lang.String\ reverseCase(java.lang.String)
+comment6.params=string1\ string2
+comment6.target=java.lang.String\ oneAtATime(java.lang.String,\ java.lang.String)
+numComments=7

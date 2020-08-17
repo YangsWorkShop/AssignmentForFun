@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=MapPractice
+comment1.params=map\ key
+comment1.target=java.lang.Object\ findValueOf(java.util.Map,\ java.lang.Object)
+comment2.params=map\ value
+comment2.target=java.lang.Object[]\ findKeysOf(java.util.Map,\ java.lang.Object)
+comment3.params=size
+comment3.target=java.util.Map\ fibonacciTree(int)
+comment4.params=first\ second\ size
+comment4.target=java.util.Map\ crazySpiral(java.lang.Integer,\ java.lang.Integer,\ java.lang.Integer)
+numComments=5
