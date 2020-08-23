@@ -19,7 +19,7 @@ public class DansDilemmaTests {
     @Test
     public void dilemmaOfTwoDoubleTest1(){
         // Given
-        Double input1 = 4d;
+        Double input1 = 4d  ;
         Double input2 = 5d;
         // When
         Integer actual = dansDilemma.dilemmaOfTwo(input1, input2);
