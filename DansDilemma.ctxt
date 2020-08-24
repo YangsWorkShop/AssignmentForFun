@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=DansDilemma
+comment1.params=input1\ input2
+comment1.target=java.lang.Integer\ dilemmaOfTwo(java.lang.Double,\ java.lang.Double)
+comment2.params=input1\ input2\ input3
+comment2.target=java.lang.Integer\ dilemmaOfThree(java.lang.Double,\ java.lang.Double,\ java.lang.Double)
+comment3.params=args
+comment3.target=java.lang.Integer\ dilemmaOfN(java.lang.Double[])
+numComments=4

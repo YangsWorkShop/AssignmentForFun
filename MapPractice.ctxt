@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MapPractice
+comment1.params=map\ key
+comment1.target=java.lang.Object\ findValueOf(java.util.Map,\ java.lang.Object)
+comment1.text=findValueOf\ given\ a\ Map\ and\ an\ Object\ representing\ a\ \r\n\ \ \ \ key\ in\ the\ map,\ will\ retrieve\ the\ value\ assigned\ \r\nto\ that\ key.
+comment2.params=map\ value
+comment2.target=java.lang.Object[]\ findKeysOf(java.util.Map,\ java.lang.Object)
+comment2.text=findKeysOf\ given\ a\ Map\ and\ an\ Object\ representing\ a\ value\r\n\ \ \ \ \ in\ the\ map,\ will\ return\ an\ Object[]\ of\ all\ keys\ assigned\ \r\nto\ that\ value.
+comment3.params=size
+comment3.target=java.util.Map\ fibonacciTree(int)
+comment3.text=fibonacciTree\ should\ return\ a\ Map\ of\ the\ first\ size\ numbers\ in\ the\ Fibonacci\ sequence.\r\n\ \ \ \ \ The\ keys\ should\ represent\ the\ position\ in\ the\ sequence\ that\ the\ value\ is\ in\ the\ sequence.\ \r\nPlease\ refer\ to\ tests/Google\ for\ clarification.
+comment4.params=first\ second\ size
+comment4.target=java.util.Map\ crazySpiral(java.lang.Integer,\ java.lang.Integer,\ java.lang.Integer)
+comment4.text=crazySpiral\ should\ return\ a\ Map\ of\ the\ first\ size\ numbers\ in\ a\ sequence\ starting\ with\ first\ and\ second.\ \r\n\ \ \ \ \ The\ third\ number\ should\ be\ the\ sum\ of\ the\ first\ two,\ the\ fourth\ the\ sum\ of\ 2\ and\ 3,\ etc.\ \r\n\ \ \ \ \ The\ keys\ should\ represent\ the\ position\ in\ the\ sequence\ that\ the\ value\ is\ in\ in\ the\ sequence.\ \r\nPlease\ refer\ to\ tests/Google\ for\ clarification.
+numComments=5
