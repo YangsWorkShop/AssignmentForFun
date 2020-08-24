@@ -66,6 +66,16 @@ public class MapPracticeTests {
     }
 
     @Test
+    public void myFindValueTest(){
+        String key = "Link";
+        String expected ="Legend of Zelda";
+
+        String actual = (String) mapPractice.findValueOf(map1,key);
+
+        Assert.assertEquals(actual,expected);
+    }
+
+    @Test
     public void findKeysOfTest1(){
         // Given
         String value = "Donkey Kong";
@@ -96,6 +106,16 @@ public class MapPracticeTests {
         Object[] actual = mapPractice.findKeysOf(map1, value);
         // Then
         Assert.assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    public void myFindKeysOfTest(){
+        String value = "EarthBound";
+        Object[] expected = {"Ness"};
+
+        Object[] actual = mapPractice.findKeysOf(map1,value);
+
+        Assert.assertArrayEquals(actual,expected);
     }
 
     @Test
@@ -160,6 +180,8 @@ public class MapPracticeTests {
         Assert.assertEquals(expected, actual);
     }
 
+
+
     @Test
     public void fibonacciTreeTest5(){
         // Given
@@ -169,6 +191,20 @@ public class MapPracticeTests {
         Map<Integer, Integer> actual = mapPractice.fibonacciTree(upTo);
         // Then
         Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void myFibonnaciTreeTest(){
+        Integer upTo = 3;
+        Map<Integer,Integer> expected = new TreeMap<Integer, Integer>();
+        expected.put(1,1);
+        expected.put(2,1);
+        expected.put(3,2);
+
+        Map<Integer,Integer> actual = mapPractice.fibonacciTree(upTo);
+
+        Assert.assertEquals(actual,expected);
+
     }
 
     @Test
@@ -267,6 +303,16 @@ public class MapPracticeTests {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public  void myCrazySpiralTest(){
+        Integer upTo = 1;
+        Integer first = 1;
+        Integer second = 2;
+        Map<Integer,Integer> expected = new TreeMap<Integer, Integer>();
+        expected.put(1,1);
+        Map<Integer,Integer> actual = mapPractice.crazySpiral(first,second, upTo);
 
+        Assert.assertEquals(expected,actual);
+    }
 
 }
