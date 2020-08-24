@@ -66,6 +66,31 @@ public class DansDilemmaTests {
     }
 
     @Test
+    public void dilemmaOfTwoDoubleTest5(){
+        // Given
+        Double input1 = 1d;
+        Double input2 = null;
+        // When
+        Integer actual = dansDilemma.dilemmaOfTwo(input1, input2);
+        // Then
+        Integer expected = 0;
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void dilemmaOfTwoDoubleTest6(){
+        // Given
+        Double input1 = null;
+        Double input2 = 1d;
+        // When
+        Integer actual = dansDilemma.dilemmaOfTwo(input1, input2);
+        // Then
+        Integer expected = 0;
+        Assert.assertEquals(expected, actual);
+    }
+
+
+    @Test
     public void dilemmaOfThreeDoubleTest1(){
         // Given
         Double input1 = 1d;
@@ -114,6 +139,32 @@ public class DansDilemmaTests {
         Integer actual = dansDilemma.dilemmaOfThree(input1, input2, input3);
         // Then
         Integer expected = 1;
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void dilemmaOfThreeDoubleTest5(){
+        // Given
+        Double input1 = 0d;
+        Double input2 = 0d;
+        Double input3 = null;
+        // When
+        Integer actual = dansDilemma.dilemmaOfThree(input1, input2, input3);
+        // Then
+        Integer expected = 1;
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void dilemmaOfThreeDoubleTest6(){
+        // Given
+        Double input1 = 0d;
+        Double input2 = null;
+        Double input3 = null;
+        // When
+        Integer actual = dansDilemma.dilemmaOfThree(input1, input2, input3);
+        // Then
+        Integer expected = 0;
         Assert.assertEquals(expected, actual);
     }
 
@@ -167,14 +218,22 @@ public class DansDilemmaTests {
     @Test
     public void dilemmaOfNTest5(){
         // Given
-        Double[] inputs = new Double[4314];
-        for (int i = 0; i < inputs.length; i++) {
-            inputs[i] = (double) i;
-        }
+        Double[] inputs = {null, null, null, null};
         // When
         Integer actual = dansDilemma.dilemmaOfN(inputs);
         // Then
-        Integer expected = 15632976;
+        Integer expected = 0;
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void dilemmaOfNTest6(){
+        // Given
+        Double[] inputs = {};
+        // When
+        Integer actual = dansDilemma.dilemmaOfN(inputs);
+        // Then
+        Integer expected = 0;
         Assert.assertEquals(expected, actual);
     }
 
