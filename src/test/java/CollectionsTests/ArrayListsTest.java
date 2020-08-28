@@ -59,6 +59,19 @@ public class ArrayListsTest {
         // Then
         Assert.assertEquals(original1, actual);
     }
+    
+    @Test
+    public void addShitTest4(){
+        // Given
+        ArrayList<Integer> original1 = new ArrayList<Integer>();
+        ArrayList<Integer> original2 = new ArrayList<Integer>();
+        original2.add(2);
+        original2.add(5);
+        // When
+        ArrayList<Integer> actual = arrayLists.addShit(original1, original2);
+        // Then
+        Assert.assertEquals(original1, actual);
+    }
 
     @Test
     public void addShitTogetherTest1(){
@@ -102,6 +115,23 @@ public class ArrayListsTest {
         // Then
         Assert.assertEquals(expected, actual);
     }
+    
+    @Test
+    public void addShitTogetherTest4(){
+        // Given
+        ArrayList<Integer> original1 = new ArrayList<Integer>();
+        original1.add(1);
+        original1.add(2);
+        ArrayList<Integer> original2 = new ArrayList<Integer>();
+        original2.add(3);
+        original2.add(4);
+        // When
+        Integer actual = arrayLists.addShitTogether(original1, original2);
+        Integer expected = 10;
+        // Then
+        Assert.assertEquals(expected, actual);
+    }
+
 
     @Test
     public void removeAllTest1(){
@@ -151,6 +181,22 @@ public class ArrayListsTest {
         original.add(7);
         // When
         Integer toRemove = null;
+        ArrayList<Integer> actual = arrayLists.removeAll(original, toRemove);
+        // Then
+        Assert.assertEquals(original, actual);
+    }
+
+    @Test
+    public void removeAllTest4(){
+        // Given
+        ArrayList<Integer> original = new ArrayList<Integer>();
+        original.add(5);
+        original.add(5);
+        original.add(5);
+        original.add(7);
+        original.add(7);
+        // When
+        Integer toRemove = 6;
         ArrayList<Integer> actual = arrayLists.removeAll(original, toRemove);
         // Then
         Assert.assertEquals(original, actual);
@@ -218,6 +264,29 @@ public class ArrayListsTest {
         boolean actual = arrayLists.happyList(original);
         // Then
         Assert.assertFalse(actual);
+    }
+    
+    @Test
+    public void happyListTest6(){
+        // Given
+        ArrayList<String> original = new ArrayList<String>();
+        
+        // When
+        boolean actual = arrayLists.happyList(original);
+        // Then
+        Assert.assertTrue(actual);
+    }
+    
+    @Test
+    public void happyListTest7(){
+        // Given
+        ArrayList<String> original = new ArrayList<String>();
+        original.add("Be");
+        original.add("Bold");
+        // When
+        boolean actual = arrayLists.happyList(original);
+        // Then
+        Assert.assertTrue(actual);
     }
 
 }
