@@ -22,12 +22,13 @@ public class ArrayLists {
 
     public ArrayList<Integer> removeAll(ArrayList<Integer> original, Integer toRemove) {
 	
-        ArrayList<Integer> new = new ArrayList<Integer>();
+        ArrayList<Integer> new1 = new ArrayList<Integer>();
+        if(toRemove==null) return original;
         for (int n : original) {
             if (n != toRemove) 
-		new.add(n);
+		new1.add(n);
         }
-        return new;
+        return new1;
     }
 
     public boolean happyList(ArrayList<String> original) {
@@ -35,7 +36,7 @@ public class ArrayLists {
 	    return true;
         else{
             for(int i = 0; i < original.size()-1; i++){
-                HashSet<Character> set = new HashSet<>();
+                HashSet<Character> set = new HashSet<Character>();
                 char[] c1 = (original.get(i)).toCharArray();
                 char[] c = (original.get(i+1)).toCharArray();
 
