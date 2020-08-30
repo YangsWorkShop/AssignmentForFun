@@ -3,8 +3,7 @@ package Strings;
 public class BasicStrings {
 
     public String flipConcat(String string1, String string2) {
-    	String string1c = " " + string1;
-        return string2.concat(string1c);
+        return string2.concat(string1);
     }
 
     public char getChar(String string, int index) {
@@ -51,8 +50,8 @@ public class BasicStrings {
     	String res = "";
     	if(len1 == len2) {
     		for(int i = 0; i < len1; i ++) {
-    			res.append(string1[i]);
-    			res.append(string2[i]);
+    			res += str1[i];
+    			res += str2[i];
     		}
     	} else if(len1 < len2) {
 //    		for(int i = len1; i < len2; i ++) {
@@ -63,10 +62,10 @@ public class BasicStrings {
 //    			res += string2[i];
 //    		}
     		for(int i = 0; i < len1; i ++) {
-    			res.append(string1[i]);
-    			res.append(string2[i]);
+    			res += str1[i];
+    			res += str2[i];
     		}
-    		res.concat(String2.substring(len1,len2));
+    		res = res.concat(string2.substring(len1,len2));
     	} else {
 //    		for(int i = len2; i < len1; i ++) {
 //    			string2 += " ";
@@ -76,10 +75,10 @@ public class BasicStrings {
 //    			res += string2[i];
 //    		}
     		for(int i = 0; i < len2; i ++) {
-    			res.append(string1[i]);
-    			res.append(string2[i]);
+    			res += str1[i];
+    			res += str2[i];
     		}
-    		res.concat(String2.substring(len2,len1));
+    		res = res.concat(string1.substring(len2,len1));
     	}
         return res;
     }

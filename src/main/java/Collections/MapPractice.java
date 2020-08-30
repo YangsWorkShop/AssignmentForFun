@@ -1,5 +1,6 @@
 package Collections;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class MapPractice {
@@ -9,43 +10,58 @@ public class MapPractice {
     }
 
     public Object[] findKeysOf(Map map, Object value) {
-    	Object[] res = {};
+    	
+    	Object[] temp = new Object[map.size()];
     	int i = 0;
+    	int len = 0;
     	for(Object o:map.keySet()) {
-    		if((map.get(key)).equals(value)) {
-    			res[i++] = key;
+    		if((map.get(o)).equals(value)) {
+    			temp[i++] = o;
+    			len ++;
     		}
+    	}
+    	Object[] res = new Object[len];
+    	for(i = 0; i < len; i ++) {
+    		res[i] = temp[i];
     	}
         return res;
     }
 
-    public Map<Integer, Integer> fibonacciTree(int size) {
+    public Map<Integer, Integer> fibonacciTree(Integer size) {
     	HashMap res = new HashMap();
-    	if(size <= 0) {
-    		System.out.println("Error for the size, size should be more than zero");
-    	} else if(size == 1) {
-    		res.put(1,1);
-    	} else if(size == 2) {
-    		res.put(1,1);
-    		res.put(2,1);
-    	} else {
-    		res.put(1,1);
-    		res.put(2,1);
-    		for(int i = 3; i == size; i ++) {
-    			res.put(i, ((int)res.get(i-1)+(int)res.get(i-2)));
+    	if(size.intValue() == 1) {
+    		res.put(new Integer(1),new Integer(1));
+    	} else if(size.intValue() == 2) {
+    		res.put(new Integer(1),new Integer(1));
+    		res.put(new Integer(2),new Integer(1));
+    	} else if(size.intValue() > 2){
+    		res.put(new Integer(1),new Integer(1));
+    		res.put(new Integer(2),new Integer(1));
+    		for(int i = 3; i < size.intValue()+1; i ++) {
+    			res.put(new Integer(i), new Integer((int)res.get(i-1)+(int)res.get(i-2)));
     		}
     	}
+    	
         return res;
     }
 
     public Map<Integer, Integer> crazySpiral(Integer first, Integer second, Integer size) {
     	HashMap res = new HashMap();
-    	res.put(1,first);
-    	res.put(2,second);
-    	if(size >= 3) {
-    		for(int i = 3; i == size; i ++) {
-    			res.put(i, ((int)res.get(i-1)+(int)res.get(i-2)));
+    	if(size.intValue() == 1) {
+    		res.put(new Integer(1),first);
+    		
+    	} else if(size.intValue() == 2) {
+    		res.put(new Integer(1),first);
+    		res.put(new Integer(2),second);
+    		
+    	} else if(size.intValue() >= 3) {
+    		for(int i = 3; i < size.intValue() + 1; i ++) {
+    			res.put(new Integer(1),first);
+        		res.put(new Integer(2),second);
+    			res.put(new Integer(i), new Integer((int)res.get(i-1)+(int)res.get(i-2)));
+    			
     		}
+    		
     	}
         return res;
     }

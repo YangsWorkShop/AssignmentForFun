@@ -26,7 +26,6 @@ public class ArrayLists {
         for(Integer i = 0; i < original.size(); i ++) {
         	if(original.get(i) == toRemove) {
         		original.remove(i);
-        		i --;
         	}
         }
     	return original;
@@ -38,9 +37,9 @@ public class ArrayLists {
     		flag = true;
     	}
     	if(original.size() == 2) {
-    		for(int i = 0; i < original[0].length(); i ++) {
-    			for(int j = 0; j < original[1].length(); j ++) {
-    				if(original[0].charAt(i) == original[1].charAt(j)) {
+    		for(int i = 0; i < original.get(0).length(); i ++) {
+    			for(int j = 0; j < original.get(1).length(); j ++) {
+    				if(original.get(0).charAt(i) == original.get(1).charAt(j)) {
     					flag = true;
     				}
     			}
@@ -48,13 +47,15 @@ public class ArrayLists {
     	}
     	if(original.size() >= 3) {
     		for(int p = 0, q = p + 1; p < original.size() - 1; p ++, q ++) {
-    			for(int i = 0; i < original[p].length(); i ++) {
-        			for(int j = 0; j < original[q].length(); j ++) {
-        				if(original[p].charAt(i) == original[q].charAt(j)) {
+    			flag = false;
+    			for(int i = 0; i < original.get(p).length(); i ++) {
+        			for(int j = 0; j < original.get(q).length(); j ++) {
+        				if(original.get(p).charAt(i) == original.get(q).charAt(j)) {
         					flag = true;
         				}
         			}
         		}
+    			
     		}
     	}
         return flag;
