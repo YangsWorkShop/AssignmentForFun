@@ -1,5 +1,5 @@
 package CollectionsTests;
-
+import org.junit.Assert;
 import Collections.ArrayLists;
 import org.junit.Assert;
 import org.junit.Before;
