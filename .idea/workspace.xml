@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6192abe9-0090-4803-8a52-32ce0224054b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assessment2Sunday.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Collections/ArrayLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Collections/MapPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Collections/MapPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DansDilemma/DansDilemma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DansDilemma/DansDilemma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/BasicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/BasicStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringsTests/BasicStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringsTests/BasicStringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collections/ArrayLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collections/MapPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DansDilemma/DansDilemma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Strings/BasicStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CollectionsTests/ArrayListsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CollectionsTests/MapPracticeTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DansDilemmaTests/DansDilemmaTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StringsTests/BasicStringsTest.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="398718266">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="8" />
+          <entry key="md" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+          <entry key="Markdown" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2024" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2024" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CollectionsTests/ArrayListsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DansDilemma/DansDilemma.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+              <folding>
+                <element signature="e#445#453#0" expanded="true" />
+                <element signature="e#751#759#0" expanded="true" />
+                <element signature="e#1502#1510#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DansDilemmaTests/DansDilemmaTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1801">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DansDilemmaREADME.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Collections/ArrayLists.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Collections/MapPractice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Strings/BasicStrings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StringsTests/BasicStringsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DansDilemma/DansDilemma.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="832" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DansDilemma" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionsTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DansDilemmaTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AssignmentForFun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StringsTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment2Sunday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BasicStringsTest">
+    <configuration name="ArrayListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assessment2Sunday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionsTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CollectionsTests" />
+      <option name="MAIN_CLASS_NAME" value="CollectionsTests.ArrayListsTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicStringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assessment2Sunday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringsTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StringsTests" />
+      <option name="MAIN_CLASS_NAME" value="StringsTests.BasicStringsTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicStringsTest.oneAtATimeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assessment2Sunday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringsTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StringsTests" />
+      <option name="MAIN_CLASS_NAME" value="StringsTests.BasicStringsTest" />
+      <option name="METHOD_NAME" value="oneAtATimeTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DansDilemmaTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assessment2Sunday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DansDilemmaTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DansDilemmaTests" />
+      <option name="MAIN_CLASS_NAME" value="DansDilemmaTests.DansDilemmaTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapPracticeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assessment2Sunday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionsTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CollectionsTests" />
+      <option name="MAIN_CLASS_NAME" value="CollectionsTests.MapPracticeTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DansDilemmaTests" />
+      <item itemvalue="JUnit.ArrayListsTest" />
+      <item itemvalue="JUnit.MapPracticeTests" />
+      <item itemvalue="JUnit.BasicStringsTest.oneAtATimeTest2" />
+      <item itemvalue="JUnit.BasicStringsTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BasicStringsTest" />
+        <item itemvalue="JUnit.BasicStringsTest.oneAtATimeTest2" />
+        <item itemvalue="JUnit.MapPracticeTests" />
+        <item itemvalue="JUnit.ArrayListsTest" />
+        <item itemvalue="JUnit.DansDilemmaTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6192abe9-0090-4803-8a52-32ce0224054b" name="Default Changelist" comment="" />
+      <created>1604898795298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604898795298</updated>
+      <workItem from="1604898796515" duration="251000" />
+      <workItem from="1604899052404" duration="3991000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BasicStringsTest_oneAtATimeTest3 - 2020.11.09 at 04h 36m 53s.xml">
+      <configuration name="BasicStringsTest.oneAtATimeTest3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasicStringsTest - 2020.11.09 at 04h 37m 02s.xml">
+      <configuration name="BasicStringsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DansDilemmaTests_dilemmaOfTwoDoubleTest1 - 2020.11.09 at 04h 51m 40s.xml">
+      <configuration name="DansDilemmaTests.dilemmaOfTwoDoubleTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DansDilemmaTests_dilemmaOfTwoDoubleTest2 - 2020.11.09 at 04h 51m 42s.xml">
+      <configuration name="DansDilemmaTests.dilemmaOfTwoDoubleTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DansDilemmaTests_dilemmaOfTwoDoubleTest3 - 2020.11.09 at 04h 51m 45s.xml">
+      <configuration name="DansDilemmaTests.dilemmaOfTwoDoubleTest3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DansDilemmaTests_dilemmaOfTwoDoubleTest4 - 2020.11.09 at 04h 51m 51s.xml">
+      <configuration name="DansDilemmaTests.dilemmaOfTwoDoubleTest4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DansDilemmaTests_dilemmaOfThreeDoubleTest1 - 2020.11.09 at 04h 57m 20s.xml">
+      <configuration name="DansDilemmaTests.dilemmaOfThreeDoubleTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DansDilemmaTests_dilemmaOfThreeDoubleTest2 - 2020.11.09 at 04h 57m 23s.xml">
+      <configuration name="DansDilemmaTests.dilemmaOfThreeDoubleTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DansDilemmaTests_dilemmaOfThreeDoubleTest3 - 2020.11.09 at 04h 57m 26s.xml">
+      <configuration name="DansDilemmaTests.dilemmaOfThreeDoubleTest3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DansDilemmaTests_dilemmaOfThreeDoubleTest4 - 2020.11.09 at 04h 57m 28s.xml">
+      <configuration name="DansDilemmaTests.dilemmaOfThreeDoubleTest4" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4242000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="832" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/CollectionsTests/MapPracticeTests.java</url>
+          <line>68</line>
+          <properties class="CollectionsTests.MapPracticeTests" method="findKeysOfTest1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ArrayListsREADME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/MapPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#263#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CollectionsTests/MapPracticeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapPracticeREADME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/ArrayLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="e#753#762#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CollectionsTests/ArrayListsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Strings/BasicStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StringsTests/BasicStringsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="192" column="31" selection-start-line="192" selection-start-column="31" selection-end-line="192" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicStringsREADME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DansDilemmaREADME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DansDilemmaTests/DansDilemmaTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1801">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DansDilemma/DansDilemma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <element signature="e#445#453#0" expanded="true" />
+            <element signature="e#751#759#0" expanded="true" />
+            <element signature="e#1502#1510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
