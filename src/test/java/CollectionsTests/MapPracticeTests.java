@@ -33,6 +33,14 @@ public class MapPracticeTests {
     }
 
     @Test
+    public void findValueOfTest(){
+        String key="Luigi";
+        String expected = "Mario Bros.";
+        String actual = (String) mapPractice.findValueOf(map1,key);
+        Assert.assertEquals(expected,actual);
+    }
+
+    @Test
     public void findValueOfTest1(){
         // Given
         String key = "Captain Falcon";
@@ -66,6 +74,16 @@ public class MapPracticeTests {
     }
 
     @Test
+    public void findKeyOfTest(){
+        String value = "Metroid";
+
+        Object[] expected = {"Samus Aran"};
+        Object[] actual = mapPractice.findKeysOf(map1,value);
+
+        Assert.assertEquals(expected,actual);
+    }
+
+    @Test
     public void findKeysOfTest1(){
         // Given
         String value = "Donkey Kong";
@@ -96,6 +114,24 @@ public class MapPracticeTests {
         Object[] actual = mapPractice.findKeysOf(map1, value);
         // Then
         Assert.assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    public void fibonacciTreeTest(){
+        Integer upTo = 9;
+
+        Map<Integer, Integer> expected = new TreeMap<Integer, Integer>();
+        expected.put(1, 1);
+        expected.put(2, 1);
+        expected.put(3, 2);
+        expected.put(4, 3);
+        expected.put(5, 5);
+        expected.put(6, 8);
+        expected.put(7, 13);
+        expected.put(8, 21);
+        expected.put(9, 34);
+        Map<Integer,Integer> actual = mapPractice.fibonacciTree(upTo);
+        Assert.assertEquals(expected,actual);
     }
 
     @Test
@@ -169,6 +205,24 @@ public class MapPracticeTests {
         Map<Integer, Integer> actual = mapPractice.fibonacciTree(upTo);
         // Then
         Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void crazySpiralTest(){
+        Integer upTo = 7;
+        Integer first = 1;
+        Integer second = 2;
+
+        Map<Integer,Integer> expected = new TreeMap<Integer, Integer>();
+        expected.put(1,1);
+        expected.put(2,2);
+        expected.put(3,3);
+        expected.put(4,5);
+        expected.put(5,8);
+        expected.put(6,13);
+        expected.put(7,21);
+        Map<Integer,Integer> actual = mapPractice.crazySpiral(first,second,upTo);
+        Assert.assertEquals(expected,actual);
     }
 
     @Test

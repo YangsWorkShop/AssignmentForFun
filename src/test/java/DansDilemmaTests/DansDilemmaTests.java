@@ -17,6 +17,18 @@ public class DansDilemmaTests {
     }
 
     @Test
+    public void dilemmaOfTwoDoubleTest(){
+        // Given
+        Double input1 = 76d;
+        Double input2 = 21d;
+        // When
+        Integer actual = dansDilemma.dilemmaOfTwo(input1, input2);
+        // Then
+        Integer expected = 6;
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
     public void dilemmaOfTwoDoubleTest1(){
         // Given
         Double input1 = 4d;
@@ -62,6 +74,19 @@ public class DansDilemmaTests {
         Integer actual = dansDilemma.dilemmaOfTwo(input1, input2);
         // Then
         Integer expected = 1;
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void dilemmaOfThreeDoubleTest(){
+        // Given
+        Double input1 = 14d;
+        Double input2 = 23d;
+        Double input3 = 31d;
+        // When
+        Integer actual = dansDilemma.dilemmaOfThree(input1, input2, input3);
+        // Then
+        Integer expected = 18;
         Assert.assertEquals(expected, actual);
     }
 
@@ -114,6 +139,21 @@ public class DansDilemmaTests {
         Integer actual = dansDilemma.dilemmaOfThree(input1, input2, input3);
         // Then
         Integer expected = 1;
+        Assert.assertEquals(expected, actual);
+    }
+
+
+    @Test
+    public void dilemmaOfNTest(){
+        // Given
+        Double[] inputs = new Double[1000];
+        for (int i = 0; i < inputs.length; i++) {
+            inputs[i] = (double) i;
+        }
+        // When
+        Integer actual = dansDilemma.dilemmaOfN(inputs);
+        // Then
+        Integer expected = 855020;
         Assert.assertEquals(expected, actual);
     }
 
