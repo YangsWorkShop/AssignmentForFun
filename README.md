@@ -1,4 +1,4 @@
-# Assessment for fun123
+# Assessment for fun12345
 A Fun Session to help students of the JavaBatch.
 After you finished it, please rewrite the tests.
 
