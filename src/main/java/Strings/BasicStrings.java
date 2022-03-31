@@ -1,10 +1,11 @@
 package Strings;
 
+import java.util.Arrays;
+
 public class BasicStrings {
 
     public String flipConcat(String string1, String string2) {
-        String concated = string2.concat(string1);
-        return concated;
+        return string2.concat(string1);
     }
 
     public char getChar(String string, int index) {
@@ -13,42 +14,46 @@ public class BasicStrings {
     }
 
     public String iCantSee(String string) {
-        String empty = "";
-        for(int i = 0; i<string.length(); i ++){
-            empty = empty + " ";
+        String res = "";
+        for (int i = 0; i < string.length(); i++) {
+            res += " ";
         }
-        return empty;
+        return res;
     }
 
     public String loudAndClear(String string) {
-        String s = string.toUpperCase();
-        return s;
+        return string.toUpperCase();
     }
 
     public String reverseCase(String string) {
-        StringBuffer str = new StringBuffer(string);
-        for (int i=0; i<string.length(); i++){
-            char c = string.charAt(i);
-            if (Character.isLowerCase(c)) {
-                str.replace(i, i + 1, Character.toUpperCase(c) + "");
-            }else {
-                str.replace(i, i + 1, Character.toLowerCase(c) + "");
+        char[] s1 = string.toCharArray();
+        for (int i = 0; i < s1.length; i++) {
+            if (Character.isLowerCase(s1[i])) {
+                s1[i] = Character.toUpperCase(s1[i]);
+            } else {
+                s1[i] = Character.toLowerCase(s1[i]);
             }
         }
-        String result = str.toString();
-        return result;
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < s1.length; i++) {
+            sb.append(s1[i]);
+        }
+        String res = sb.toString();
+        return res;
     }
 
     public String oneAtATime(String string1, String string2) {
-        StringBuilder result = new StringBuilder();
-        for(int i = 0; i<string1.length() || i<string2.length(); i++){
-            if (i<string1.length()){
-                result.append(string1.charAt(i));
+
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < string1.length() || i < string2.length(); i++) {
+            if (i < string1.length()) {
+                sb.append(string1.charAt(i));
             }
-            if (i<string2.length()){
-                result.append(string2.charAt(i));
+            if (i < string2.length()) {
+                sb.append(string2.charAt(i));
             }
         }
-        return result.toString();
+        String res = sb.toString();
+        return res;
     }
 }
