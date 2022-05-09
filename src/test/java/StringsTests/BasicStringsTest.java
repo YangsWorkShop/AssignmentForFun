@@ -106,6 +106,16 @@ public class BasicStringsTest {
         // Then
         Assert.assertEquals(expected, actual);
     }
+    @Test
+    public void iCantSeeTest4(){
+        // Given
+        String string1 = "take      \n it &&";
+        String expected = "                 ";
+        // When
+        String actual = basicStrings.iCantSee(string1);
+        // Then
+        Assert.assertEquals(expected, actual);
+    }
 
     @Test
     public void loudAndClearTest1(){
@@ -121,8 +131,8 @@ public class BasicStringsTest {
     @Test
     public void loudAndClearTest2(){
         // Given
-        String string = "lEt mE hEaR yOu";
-        String expected = "LET ME HEAR YOU";
+        String string = "lEt mE hEaR yOu!!43";
+        String expected = "LET ME HEAR YOU!!43";
         // When
         String actual = basicStrings.loudAndClear(string);
         // Then
@@ -154,8 +164,8 @@ public class BasicStringsTest {
     @Test
     public void reverseCaseTest3(){
         // Given
-        String string = "";
-        String expected = "";
+        String string = "\t";
+        String expected = "\t";
         // When
         String actual = basicStrings.reverseCase(string);
         // Then
@@ -195,9 +205,17 @@ public class BasicStringsTest {
         // When
         String actual = basicStrings.oneAtATime(string1, string2);
         // Then
+        Assert.assertNotEquals(expected, actual);
+    }
+    @Test
+    public void oneAtATimeTest4(){
+        // Given
+        String string1 = "Chr 9.0";
+        String string2 = "oot";
+        String expected = "Cohort 9.0";
+        // When
+        String actual = basicStrings.oneAtATime(string1, string2);
+        // Then
         Assert.assertEquals(expected, actual);
     }
-
-
-
 }
