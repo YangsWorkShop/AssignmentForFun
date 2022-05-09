@@ -28,11 +28,15 @@ public class ArrayListsTest {
         original2.add(7);
         original2.add(7);
         // When
-        ArrayList<Integer> actual = arrayLists.addShit(original1, original2);
-        original1.add(7);
-        original1.add(7);
+        ArrayList<Integer> testArray = arrayLists.addShit(original1, original2);
+        ArrayList<Integer> actual=new ArrayList<Integer>();
+        actual.add(5);
+        actual.add(5);
+        actual.add(5);
+        actual.add(7);
+        actual.add(7);
         // Then
-        Assert.assertEquals(original1, actual);
+        Assert.assertEquals(testArray, actual);
     }
 
     @Test
@@ -45,8 +49,12 @@ public class ArrayListsTest {
         ArrayList<Integer> original2 = new ArrayList<Integer>();
         // When
         ArrayList<Integer> actual = arrayLists.addShit(original1, original2);
+        ArrayList<Integer> testArray=new ArrayList<Integer>();
+        testArray.add(5);
+        testArray.add(5);
+        testArray.add(5);
         // Then
-        Assert.assertEquals(original1, actual);
+        Assert.assertEquals(testArray, actual);
     }
 
     @Test
@@ -135,7 +143,7 @@ public class ArrayListsTest {
         Integer toRemove = 5;
         ArrayList<Integer> actual = arrayLists.removeAll(original, toRemove);
         original.remove(0);
-        original.remove(1);
+        original.remove(2);
         // Then
         Assert.assertEquals(original, actual);
     }
@@ -151,6 +159,22 @@ public class ArrayListsTest {
         original.add(7);
         // When
         Integer toRemove = null;
+        ArrayList<Integer> actual = arrayLists.removeAll(original, toRemove);
+        // Then
+        Assert.assertEquals(original, actual);
+    }
+
+    @Test
+    public void removeAllTest4(){
+        // Given
+        ArrayList<Integer> original = new ArrayList<Integer>();
+        original.add(5);
+        original.add(5);
+        original.add(5);
+        original.add(7);
+        original.add(7);
+        // When
+        Integer toRemove = 8;
         ArrayList<Integer> actual = arrayLists.removeAll(original, toRemove);
         // Then
         Assert.assertEquals(original, actual);
@@ -193,7 +217,7 @@ public class ArrayListsTest {
         // When
         boolean actual = arrayLists.happyList(original);
         // Then
-        Assert.assertTrue(actual);
+        Assert.assertFalse(actual);
     }
 
     @Test
@@ -204,7 +228,7 @@ public class ArrayListsTest {
         // When
         boolean actual = arrayLists.happyList(original);
         // Then
-        Assert.assertTrue(actual);
+        Assert.assertFalse(actual);
     }
 
     @Test

@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -13,6 +14,8 @@ import java.util.TreeMap;
 public class MapPracticeTests {
     private MapPractice mapPractice;
     private Map map1;
+    private Map map2;
+    private Map map3;
 
     @Before
     public void setup(){
@@ -30,6 +33,8 @@ public class MapPracticeTests {
         map1.put("Captain Falcon", "F-Zero");
         map1.put("Ness", "EarthBound");
         map1.put("Jigglypuff", "Pokemon");
+        map2=new HashMap<String,Integer>();
+        map3=new HashMap<Integer,Double>();
     }
 
     @Test
@@ -64,6 +69,16 @@ public class MapPracticeTests {
         // Then
         Assert.assertEquals(expected, actual);
     }
+    @Test
+    public void findValueOfTest4(){
+        // Given
+        String key = "nonkey";
+        // When
+        String expected = null;
+        String actual = (String) mapPractice.findValueOf(map2, key);
+        // Then
+        Assert.assertEquals(expected, actual);
+    }
 
     @Test
     public void findKeysOfTest1(){
@@ -94,6 +109,28 @@ public class MapPracticeTests {
         // When
         Object[] expected = {"Jigglypuff", "Pikachu"};
         Object[] actual = mapPractice.findKeysOf(map1, value);
+        // Then
+        Assert.assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    public void findKeysOfTest4(){
+        // Given
+        String value = "nonValue";
+        // When
+        Object[] expected = {};
+        Object[] actual = mapPractice.findKeysOf(map2, value);
+        // Then
+        Assert.assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    public void findKeysOfTest5(){
+        // Given
+        String value = "wrongtype";
+        // When
+        Object[] expected = {};
+        Object[] actual = mapPractice.findKeysOf(map3, value);
         // Then
         Assert.assertArrayEquals(expected, actual);
     }
